@@ -4,7 +4,7 @@
     "git clone https://github.com/Nolan-Chow/Week11Lab.git"
    Tip: after running the command above, use the "ls" command to confirm that a folder containing this repository's contents has appeared
 
-2) To access the contents of the repository, run the following commandL
+2) To access the contents of the repository, run the following command:
     "cd Week11Lab"
     
 3) Access wttr_script.service to work on your current machine using the following command:
@@ -13,7 +13,7 @@
     After the above command has been ran, find the line containing "ExecStart" and perform the following changes:
         ExecStart=/home/vagrant/week11/wttr_script -> ExecStart=/home/<insert the path to your home directory>/Week11Lab/wttr_script
   
-    Then find the line containing "WorkingDirectory" and perform the following changes:
+    Then find the line containing "WorkingDirectory" and perform the following changes:\n
         WorkingDirectory=/home/vagrant/week11 -> WorkingDirectory=/home/<insert the path to your home directory>/Week11Lab
   
     Finally, save the file
