@@ -13,7 +13,7 @@
     After the above command has been ran, find the line containing "ExecStart" and perform the following changes:
         ExecStart=/home/vagrant/week11/wttr_script -> ExecStart=/home/<insert the path to your home directory>/Week11Lab/wttr_script
   
-    Then find the line containing "WorkingDirectory" and perform the following changes:\n
+    Then find the line containing "WorkingDirectory" and perform the following changes:
         WorkingDirectory=/home/vagrant/week11 -> WorkingDirectory=/home/<insert the path to your home directory>/Week11Lab
   
     Finally, save the file
