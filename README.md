@@ -1,6 +1,6 @@
 # Week11Lab
 
-1) To clone the this repooository onto your Linux machine, run the following command:
+1) To clone the this repository onto your Linux machine, run the following command:
     "git clone https://github.com/Nolan-Chow/Week11Lab.git"
    Tip: after running the command above, use the "ls" command to confirm that a folder containing this repository's contents has appeared
 
